@@ -1,0 +1,17 @@
+{
+  "title": "Office 文書",
+  "loading": "文書を描画中…",
+  "retry": "再試行",
+  "viewMissingFonts": "不足しているフォント：{count}。クリックして確認。",
+  "missingFontsTitle": "不足しているフォント",
+  "missingFontsDescription": "これらのフォントはプレビューで利用できません。文字やレイアウトが元の文書と異なる場合があります。",
+  "missingFontsCount": "フォント：{count}",
+  "closeDetails": "フォントの詳細を閉じる",
+  "unavailable": "Office プレビューを利用できません。DeepSeek Harness を実行しているコンピューターで文書プレビューサービスを有効にしてください。",
+  "invalid": "この Office ファイルをプレビューできません。破損、パスワード保護、拡張子の不一致の可能性があります。",
+  "tooLarge": "Office ファイルまたは変換後の PDF がプレビューのサイズ上限を超えています。ファイルを小さくするか、プレビューの設定を調整してください。",
+  "failed": "Office 変換で利用可能な PDF を生成できませんでした。ファイルを確認して再試行してください。",
+  "timeout": "Office 変換がタイムアウトしました。再試行してください。",
+  "busy": "Office プレビューは処理中です。少し待って再試行してください。",
+  "changed": "読み取り中にファイルが変更されました。プレビューを開き直してください。"
+}

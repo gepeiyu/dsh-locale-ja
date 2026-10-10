@@ -1,0 +1,255 @@
+{
+  "repository": "https://github.com/deepseek-ai/deepseek-harness",
+  "commit": "d743267388641bc76f17c45ce8b4c231aed1d32c",
+  "version": "0.2.1-alpha.2",
+  "namespaces": {
+    "common": {
+      "path": "packages/client/locale/src/locales/en.ts",
+      "export": "en"
+    },
+    "settings.locale": {
+      "path": "packages/client/locale/src/locales/settings.ts",
+      "export": "en"
+    },
+    "settings.agentPreset": {
+      "path": "packages/client/ui-agent-preset/src/client/locales.ts",
+      "export": "en"
+    },
+    "approval": {
+      "path": "packages/client/ui-approval/src/client/locales.ts",
+      "export": "en"
+    },
+    "chat": {
+      "path": "packages/client/ui-chat/src/client/locale.ts",
+      "export": "en"
+    },
+    "command": {
+      "path": "packages/client/ui-commands/src/client/locales.ts",
+      "export": "en"
+    },
+    "conversation": {
+      "path": "packages/client/ui-conversation/src/client/locales.ts",
+      "export": "en"
+    },
+    "deliverables": {
+      "path": "packages/client/ui-deliverables/src/client/locales.ts",
+      "export": "en"
+    },
+    "goal": {
+      "path": "packages/client/ui-goal/src/client/locales.ts",
+      "export": "en"
+    },
+    "slash.menu": {
+      "path": "packages/client/ui-input-trigger/src/client/locales.ts",
+      "export": "en"
+    },
+    "job": {
+      "path": "packages/client/ui-jobs/src/client/locales.ts",
+      "export": "en"
+    },
+    "shortcuts.layout": {
+      "path": "packages/client/ui-layout/src/client/shortcut-locales.ts",
+      "export": "en"
+    },
+    "feedback": {
+      "path": "packages/client/ui-message-feedback/src/client/locales.ts",
+      "export": "en"
+    },
+    "model": {
+      "path": "packages/client/ui-model-selection/src/client/locales.ts",
+      "export": "en"
+    },
+    "open-in-app": {
+      "path": "packages/client/ui-open-in-app/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.permission": {
+      "path": "packages/client/ui-permission-presets/src/client/locales.ts",
+      "export": "en"
+    },
+    "permission.access": {
+      "path": "packages/client/ui-permission-presets/src/client/locales.ts",
+      "export": "accessEn"
+    },
+    "plan": {
+      "path": "packages/client/ui-plan/src/client/locales.ts",
+      "export": "en"
+    },
+    "pluginManager": {
+      "path": "packages/client/ui-plugin-manager/src/client/locales.ts",
+      "export": "en"
+    },
+    "reference": {
+      "path": "packages/client/ui-reference/src/client/locales.ts",
+      "export": "en"
+    },
+    "schedule.catalog": {
+      "path": "packages/client/ui-schedule/src/client/locales.ts",
+      "export": "en"
+    },
+    "schedule.manager": {
+      "path": "packages/client/ui-schedule/src/client/task-manager-locales.ts",
+      "export": "en"
+    },
+    "settings.account": {
+      "path": "packages/client/ui-settings-account/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.agentLoop": {
+      "path": "packages/client/ui-settings-agent-loop/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings": {
+      "path": "packages/client/ui-settings-general/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.models": {
+      "path": "packages/client/ui-settings-models/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.pluginInventory": {
+      "path": "packages/client/ui-settings-plugin-inventory/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.plugins": {
+      "path": "packages/client/ui-settings-plugins/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.sessionLog": {
+      "path": "packages/client/ui-settings-session-log/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.shell": {
+      "path": "packages/client/ui-settings-shell/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.subagent": {
+      "path": "packages/client/ui-settings-subagent/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.webSearch": {
+      "path": "packages/client/ui-settings-web-search/src/client/locales.ts",
+      "export": "en"
+    },
+    "shortcuts": {
+      "path": "packages/client/ui-shortcuts/src/client/locales.ts",
+      "export": "en"
+    },
+    "sidebarBrowser": {
+      "path": "packages/client/ui-sidebar-browser/src/client/locales.ts",
+      "export": "en"
+    },
+    "sidebarCodePreview": {
+      "path": "packages/client/ui-sidebar-documentpreview/src/client/code/locales.ts",
+      "export": "en"
+    },
+    "sidebarExcel": {
+      "path": "packages/client/ui-sidebar-documentpreview/src/client/excel/locales.ts",
+      "export": "en"
+    },
+    "documentHtml": {
+      "path": "packages/client/ui-sidebar-documentpreview/src/client/html/locales.ts",
+      "export": "en"
+    },
+    "sidebarImage": {
+      "path": "packages/client/ui-sidebar-documentpreview/src/client/image/locales.ts",
+      "export": "en"
+    },
+    "sidebarDocumentPreview": {
+      "path": "packages/client/ui-sidebar-documentpreview/src/client/locales.ts",
+      "export": "en"
+    },
+    "documentMarkdown": {
+      "path": "packages/client/ui-sidebar-documentpreview/src/client/markdown/locales.ts",
+      "export": "en"
+    },
+    "sidebarOffice": {
+      "path": "packages/client/ui-sidebar-documentpreview/src/client/office/locales.ts",
+      "export": "en"
+    },
+    "sidebarPdf": {
+      "path": "packages/client/ui-sidebar-documentpreview/src/client/pdf/locales.ts",
+      "export": "en"
+    },
+    "sidebarFiles": {
+      "path": "packages/client/ui-sidebar-files/src/client/locales.ts",
+      "export": "en"
+    },
+    "sidebarRight": {
+      "path": "packages/client/ui-sidebar-right/src/client/locales.ts",
+      "export": "en"
+    },
+    "sidebarTerminal": {
+      "path": "packages/client/ui-sidebar-terminal/src/client/locales.ts",
+      "export": "en"
+    },
+    "sidebar": {
+      "path": "packages/client/ui-sidebar/src/client/locales.ts",
+      "export": "en"
+    },
+    "skill": {
+      "path": "packages/client/ui-skill/src/client/locales.ts",
+      "export": "en"
+    },
+    "subagent": {
+      "path": "packages/client/ui-subagent/src/client/locales.ts",
+      "export": "en"
+    },
+    "settings.theme": {
+      "path": "packages/client/ui-theme/src/client/locales.ts",
+      "export": "en"
+    },
+    "trajectory": {
+      "path": "packages/client/ui-trajectory/src/client/locales.ts",
+      "export": "en"
+    },
+    "question": {
+      "path": "packages/client/ui-user-questions/src/client/locales.ts",
+      "export": "en"
+    },
+    "workflowRun": {
+      "path": "packages/client/ui-workflow-run/src/client/locales.ts",
+      "export": "en"
+    },
+    "workspace": {
+      "path": "packages/client/ui-workspace/src/client/locales.ts",
+      "export": "en"
+    },
+    "directory-browser": {
+      "path": "packages/client/ui-directory-picker-browse/src/client/index.ts",
+      "export": "inline dictionaries.en"
+    },
+    "agent-team": {
+      "path": "packages/experimental/client-ui-agent-team/src/client/locales.ts",
+      "export": "en"
+    },
+    "claude-code-mods": {
+      "path": "packages/experimental/client-ui-claude-code-mods/src/client/locales.ts",
+      "export": "en"
+    },
+    "cotTranslation": {
+      "path": "packages/experimental/client-ui-cot-translation/src/client/locales.ts",
+      "export": "en"
+    },
+    "voice-input": {
+      "path": "packages/experimental/client-ui-voice-input/src/client/locales.ts",
+      "export": "en"
+    },
+    "inspectorPanel": {
+      "path": "packages/experimental/inspector/src/client/bottom/locales.ts",
+      "export": "en"
+    },
+    "session-inspector": {
+      "path": "packages/experimental/session-inspector/src/client/locales.ts",
+      "export": "en"
+    },
+    "cordis": {
+      "path": "packages/extensions/ui-cordis/src/client/locales.ts",
+      "export": "en"
+    },
+    "session-log-download": {
+      "path": "packages/session-query/session-log-export/src/client/locales.ts",
+      "export": "en"
+    }
+  }
+}

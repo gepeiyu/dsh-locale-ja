@@ -1,0 +1,6 @@
+{
+  "band": "Claude Code mods",
+  "pressing": "作業中…",
+  "press.failed": "ボタンの操作に失敗しました：{message}",
+  "press.stale": "このボタンは以前の描画のものです。表示領域は更新されています"
+}

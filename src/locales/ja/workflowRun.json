@@ -1,0 +1,20 @@
+{
+  "run.title": "{name}",
+  "run.members.one": "メンバー {count} 件",
+  "run.members.other": "メンバー {count} 件",
+  "run.empty": "開始したメンバーはいません",
+  "phase.unassigned": "フェーズ未設定",
+  "phase.empty": "フェーズ名が空です",
+  "statusCount.running": "実行中 {count} 件",
+  "statusCount.completed": "完了 {count} 件",
+  "statusCount.failed": "失敗 {count} 件",
+  "statusCount.cancelled": "キャンセル {count} 件",
+  "statusCount.interrupted": "中断 {count} 件",
+  "member.empty": "メンバー名が空です",
+  "member.open": "{name} を開く",
+  "status.running": "実行中",
+  "status.completed": "完了",
+  "status.failed": "失敗",
+  "status.cancelled": "キャンセル済み",
+  "status.interrupted": "中断済み"
+}

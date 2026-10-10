@@ -1,0 +1,19 @@
+{
+  "mode": "アクセスモード。現在：{name}",
+  "close": "閉じる",
+  "preset.readOnly": "読み取り専用",
+  "preset.workspaceWrite": "ワークスペースへの書き込み",
+  "preset.fullAccess": "フルアクセス",
+  "confirm.title": "フルアクセスを有効にしますか？",
+  "confirm.description": "フルアクセスでは確認手順が減り、機密性の高い操作、ファイルの変更、外部コマンドなど、より多くの操作をエージェントが直接実行できます。現在のタスクを信頼できる場合のみ使用してください。",
+  "confirm.acknowledge": "リスクを理解し、続行します",
+  "confirm.cancel": "キャンセル",
+  "confirm.enable": "フルアクセスを有効化",
+  "auto.label": "自動レビュー",
+  "auto.badge": "実験的",
+  "auto.description": "すべてのネイティブツール呼び出しと PTC 内部呼び出しを同じモデルが実験的にレビューし、サンドボックスなしで実行します。",
+  "auto.confirm.title": "自動レビュー（実験的）を有効にしますか？",
+  "auto.confirm.description": "自動レビューはサンドボックスなしで動作します。ネイティブツール呼び出しと PTC 内部呼び出しのたびに、現在のエージェントと同じモデルが許可を判断し、拒否された呼び出しをユーザーが承認または拒否します。この機能は実験的で、誤って許可や拒否を行う可能性があり、追加のトークンを消費します。",
+  "auto.confirm.acknowledge": "これらのリスクを理解し、続行します",
+  "auto.confirm.enable": "自動レビューを有効化"
+}

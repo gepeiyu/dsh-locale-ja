@@ -1,0 +1,55 @@
+{
+  "name": "dsh-locale-ja",
+  "version": "0.1.0",
+  "description": "Complete Japanese client language pack for DeepSeek Harness",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
+  "main": "./lib/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "types": "./src/client/index.d.ts",
+      "default": "./lib/client.js"
+    },
+    "./locales": "./lib/locales.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "src",
+    "cordis.patch.yml",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check-locales.mjs",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "prepack": "npm run check && npm run build",
+    "upstream:check": "node scripts/upstream.mjs check",
+    "upstream:sync": "node scripts/upstream.mjs sync",
+    "upstream:review": "node scripts/upstream.mjs review"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-locale"
+      ],
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}
