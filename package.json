@@ -1,6 +1,6 @@
 {
-  "name": "@gepeiyu/dsh-locale-ja",
-  "version": "0.1.2",
+  "name": "dsh-locale-ja",
+  "version": "1.0.1",
   "description": "Complete Japanese client language pack for DeepSeek Harness",
   "type": "module",
   "license": "MIT",
