@@ -1,9 +1,20 @@
 {
-  "name": "dsh-locale-ja",
+  "name": "@gepeiyu/dsh-locale-ja",
   "version": "0.1.0",
   "description": "Complete Japanese client language pack for DeepSeek Harness",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gepeiyu/dsh-locale-ja.git"
+  },
+  "homepage": "https://github.com/gepeiyu/dsh-locale-ja#readme",
+  "bugs": {
+    "url": "https://github.com/gepeiyu/dsh-locale-ja/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=24"
   },

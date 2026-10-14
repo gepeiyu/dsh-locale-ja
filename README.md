@@ -8,10 +8,10 @@ DeepSeek Harness 日语语言包插件。安装并启用后，「设置 → 常�
 
 需要支持 `ctx.locale.addLanguage()` 的 Harness 版本，且运行配置包含官方 `@deepseek-ai/dsh-client-locale`。初始翻译基准为官方 `0.2.1-alpha.2` 源码提交 [`d7432673`](https://github.com/deepseek-ai/deepseek-harness/tree/d743267388641bc76f17c45ce8b4c231aed1d32c)，当前基准以 `reference/upstream.json` 为准。较早版本若缺少语言包接口，需要先升级。项目构建与测试使用 Node.js 24；插件没有运行时依赖，维护工具使用 TypeScript 解析器。
 
-在终端执行以下命令，从 GitHub 仓库安装到 Web profile：
+在终端执行以下命令，从 npm 安装到 Web profile：
 
 ```sh
-npx @deepseek-ai/dsh plugin --profile web add "git+https://github.com/gepeiyu/dsh-locale-ja"
+npx @deepseek-ai/dsh plugin --profile web add @gepeiyu/dsh-locale-ja
 ```
 
 `--profile` 放在 `add` 前。按实际部署替换 profile 名称。运行中的实例根据 HMR 状态可能需要重启或刷新页面；生效后进入「设置 → 常规 → 语言」选择「日本語」。安装命令及配置层遵循[官方插件发布与安装文档](https://github.com/deepseek-ai/deepseek-harness/blob/master/docs/user/develop/basic/publish.md)。
