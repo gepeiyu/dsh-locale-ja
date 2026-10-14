@@ -7,6 +7,13 @@ import { dictionaries } from '../src/locales/index.js';
 import { createRuntime } from './runtime.mjs';
 
 const reference = JSON.parse(readFileSync(new URL('../reference/en.json', import.meta.url), 'utf8'));
+
+test('bundle imports the manifest package while retaining the stable component id', () => {
+  const patch = readFileSync(new URL('../cordis.patch.yml', import.meta.url), 'utf8');
+  assert.match(patch, /^\s*- id: dsh-locale-ja$/m);
+  assert.match(patch, /^\s+name: ['"]@gepeiyu\/dsh-locale-ja['"]$/m);
+});
+
 function setup(options) {
   const runtime = createRuntime(options);
   for (const [ns, dict] of Object.entries(reference)) runtime.locale.register(ns, 'en', dict);
