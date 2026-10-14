@@ -9,9 +9,10 @@ import { createRuntime } from './runtime.mjs';
 const reference = JSON.parse(readFileSync(new URL('../reference/en.json', import.meta.url), 'utf8'));
 
 test('bundle imports the manifest package while retaining the stable component id', () => {
+  const manifest = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
   const patch = readFileSync(new URL('../cordis.patch.yml', import.meta.url), 'utf8');
   assert.match(patch, /^\s*- id: dsh-locale-ja$/m);
-  assert.match(patch, /^\s+name: ['"]@gepeiyu\/dsh-locale-ja['"]$/m);
+  assert.match(patch, new RegExp(`^\\s+name: ['"]${manifest.name.replace('/', '\\/')}['"]$`, 'm'));
 });
 
 function setup(options) {
@@ -97,11 +98,12 @@ test('unloading removes Japanese, restores English, and permits reactivation', (
 });
 
 test('built classic script registers a lazy factory and runs against the upstream registry', () => {
+  const manifest = JSON.parse(readFileSync(new URL('../package.json', import.meta.url), 'utf8'));
   let entry;
   runInNewContext(readFileSync(new URL('../lib/client.js', import.meta.url), 'utf8'), {
     window: { __ModuleLoader__: { load: value => { entry = value; } } },
   });
-  assert.equal(entry.id, 'dsh-locale-ja');
+  assert.equal(entry.id, manifest.name);
   const plugin = entry.factory(() => { throw new Error('Client must not request runtime dependencies'); });
   const runtime = setup();
   plugin.apply(runtime.ctx);
